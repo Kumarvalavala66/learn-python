@@ -1,7 +1,6 @@
 # Write a program to swap two numbers without using a third variable.
 # from idlelib.replace import replace
-
-
+from curses.ascii import isalpha
 
 # arr = []
 # num1= int(input("enter first number"))
@@ -191,3 +190,74 @@
 #         if counter[char] == max_freq:
 #             print(char)
 #             break
+
+
+#Find the second largest number in a list.
+# numbers = []
+# for i in range(5):
+#     number = int(input("enter the number: "))
+#     if number not in numbers:
+#         numbers.append(number)
+# sort = sorted(numbers)
+# print(sort[-2])
+
+#Remove duplicates from a list while keeping order.
+# arr = []
+# for i in range(5):
+#     anumber = int(input("Enter the number want to add  : "))
+#     if anumber not in arr:
+#         arr.append(anumber)
+# print(arr)
+
+
+
+
+#fizzbuzz
+# for i in range(50+1):
+#     result = "FizzBuzz" if i % 3 == 0 and i % 5 == 0  else "Buzz" if i % 5 == 0 else "Fizz" if i % 3 == 0 else i
+#     print(result)
+
+
+
+
+#with out using rev
+# numbers = ["1","2","3","4","5","6","7","8","9"]
+# print(numbers)
+# for i in range(1,len(numbers)+1):
+#     print(numbers[-i])
+
+#with using rev or slicing
+# numbers = []
+# for i in range(10):
+#     number = int(input("enter a number: "))
+#     numbers.append(number)
+# rev_numbers = numbers[::-1]
+# print(rev_numbers)
+# print(list(reversed(numbers)))
+#
+
+
+#pallandrom cheacker
+# string = input("Enter a string: ")
+# arr = list(string)
+# rev_arr = list(reversed(arr))
+# print("Yes, the string is a palindrome" if arr == rev_arr else  "NO, its not  string is a palindrome")
+
+#vowels and consonents cheacker
+# vowels = ['a', 'e', 'i', 'o', 'u']
+# vowel_count =0
+# consonant_count = 0
+# string = input("Enter a string: ").lower()
+# for char in string:
+#         vowel_count += 1 if char in vowels else 0
+#         consonant_count += 1 if char not in  vowels  and  char != " " else 0
+#
+# print("Number of vowels: ", vowel_count , " Number of consonants: ", consonant_count)
+#
+
+#fing unique element fromh string
+# string = input("enter the string :").lower().strip()
+# uniq = set(c for c in string if c!=' ')
+# print(uniq)
+#
+# COUNTING
