@@ -101,6 +101,8 @@
 #             break
 #
 # play_game()
+# dont think about comments
+
 import random
 
 choices = ["A", "B", "C"]

@@ -261,3 +261,15 @@ from curses.ascii import isalpha
 # print(uniq)
 #
 # COUNTING
+from collections import Counter
+# arr = []
+# char = input ("Enter a character: ").strip()
+# for c in char:
+#     arr = ["" if c== " " else c]
+# print(arr)
+string = str(input("enter a string :"))
+arr = []
+for char in string:
+    arr.append(char if char != " "else "")
+print("".join(max(Counter.arr)))
+
