@@ -1,0 +1,5 @@
+with open(file,"w") as f:
+with open(file,"w") as
+with open(file,"w") as f:\\\\
+with open(file,"w") as f:
+

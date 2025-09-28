@@ -57,15 +57,35 @@
 #
 # print(recursion(5))
 
-def get_even_numbers(numbers):
-    even_numbers = [num for num in numbers if num % 2 == 0]
-    return even_numbers
+# def get_even_numbers(numbers):
+#     even_numbers = [num for num in numbers if num % 2 == 0]
+#     return even_numbers
+#
+# numbers = []
+# n = int(input("How many numbers do you want to add? "))
+# for i in range(1, n+1):
+#     number = int(input(f"Enter number {i}: "))
+#     numbers.append(number)
+#
+# evens = get_even_numbers(numbers)
+# print("Even numbers in the list:", evens)
 
-numbers = []
-n = int(input("How many numbers do you want to add? "))
-for i in range(1, n+1):
-    number = int(input(f"Enter number {i}: "))
-    numbers.append(number)
 
-evens = get_even_numbers(numbers)
-print("Even numbers in the list:", evens)
+# print the reversed string
+# def reverser(words):
+#     new_line = []
+#     for word in words.split():
+#         new_word = (word[::-1])
+#         new_line.append(new_word)
+#         new_line.append(" ")
+#
+#     return new_line
+#
+#
+# words = input("enter words  : ")
+# print("".join(reverser(words)))
+#
+
+
+
+
