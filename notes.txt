@@ -1,8 +1,0 @@
-while True:
-    file_name = input("Enter file name: ").strip()
-    try:
-        file = open(file_name, "r")
-        data = file.read()
-        print(data)
-        file.close()
-        break
